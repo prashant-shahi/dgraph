@@ -562,18 +562,23 @@ func (r *rebuilder) Run(ctx context.Context) error {
 		tmpTxn := tmpDB.NewTransaction(true)
 		txn.cache.Lock()
 		for key, data := range txn.cache.deltas {
-			tmpTxn.SetEntry(&badger.Entry{
+			entry := &badger.Entry{
 				Key:      []byte(key),
 				Value:    data,
 				UserMeta: BitDeltaPosting,
-			})
+			}
+			if err := tmpTxn.SetEntry(entry); err != nil {
+				return nil, err
+			}
 		}
 		// Reset deltas
 		for k := range txn.cache.deltas {
 			delete(txn.cache.deltas, k)
 		}
 		txn.cache.Unlock()
-		tmpTxn.Commit()
+		if err := tmpTxn.Commit(); err != nil {
+			return nil, err
+		}
 
 		return nil, nil
 	}
