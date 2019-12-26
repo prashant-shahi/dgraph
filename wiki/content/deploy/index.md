@@ -13,6 +13,10 @@ For a single server setup, recommended for new users, please see [Get Started](/
 ## Install Dgraph
 #### Docker
 
+{{% notice %}}
+You need to install [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/) before executing following commands.
+{{% /notice %}}
+
 ```sh
 docker pull dgraph/dgraph:latest
 
