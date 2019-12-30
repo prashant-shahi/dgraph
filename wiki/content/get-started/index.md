@@ -84,6 +84,27 @@ with Dgraph from your application.
 - See [Deploy]({{< relref "deploy/index.md" >}}) if you wish to run Dgraph
   in a cluster.
 
+## Demo
+
+<section class="toc">
+  <div class="container">
+    <div class="row row-no-padding">
+      <div class="col-12 col-sm-6">
+        <div class="section-item">
+          <div class="section-name">
+            <a href="https://play.dgraph.io">
+              Dgraph Playground
+            </a>
+          </div>
+          <p class="section-desc">
+            Play with Freebase movie dataset with 21 million edges
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 ## Need Help
 
 * Please use [discuss.dgraph.io](https://discuss.dgraph.io) for questions, feature requests and discussions.
