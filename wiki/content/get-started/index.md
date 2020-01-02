@@ -106,7 +106,7 @@ with Dgraph from your application.
 </section>
 
 
-## Flock
+## Flock in Dgraph
 
 <section class="toc">
   <div class="container">
@@ -115,7 +115,7 @@ with Dgraph from your application.
         <div class="section-item">
           <div class="section-name">
             <a href="https://github.com/dgraph-io/flock">
-              Flock
+              Flock in Dgraph
             </a>
           </div>
           <p class="section-desc">
