@@ -105,6 +105,29 @@ with Dgraph from your application.
   </div>
 </section>
 
+
+## Flock
+
+<section class="toc">
+  <div class="container">
+    <div class="row row-no-padding">
+      <div class="col-12 col-sm-6">
+        <div class="section-item">
+          <div class="section-name">
+            <a href="https://github.com/dgraph-io/flock">
+              Flock
+            </a>
+          </div>
+          <p class="section-desc">
+            Load data Tweet data in Dgraph and query on the graph model
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 ## Need Help
 
 * Please use [discuss.dgraph.io](https://discuss.dgraph.io) for questions, feature requests and discussions.
