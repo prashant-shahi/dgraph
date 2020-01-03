@@ -25,7 +25,7 @@ production at multiple Fortune 500 companies, and by
 
 [rel]: https://github.com/dgraph-io/dgraph/releases
 
-## Quick Install
+## Installation
 
 The quickest way to install Dgraph is to run this command on Linux or Mac.
 
